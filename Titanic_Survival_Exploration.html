@@ -1746,8 +1746,13 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer</strong>: I work for a large healthcare provider. We just deployed a highly complex system that adjudicates claims (i.e., decides whether or not claims should be paid and if so, at what level). All adjudication rules are manually created, which takes hundreds of people a very large amount of time.
-I think it would have been faster (and potentially more accurate) to learn these rules from our history of claims (adjudication rules can be seen as a very large decision tree).</p>
+<p><strong>Answer</strong>: I work for a large healthcare provider. We just deployed a highly complex system that adjudicates claims (i.e., decides whether or not claims should be paid and if so, at what level). All adjudication rules are manually created, which takes hundreds of people a very large amount of time.</p>
+<p>I think it would have been faster (and potentially more accurate) to learn these rules from our history of claims (adjudication rules can be seen as a very large decision tree).</p>
+<p>The outcome variable in for adjudication would be the dollar amount covered for each particular claim element.  Some of the features would include:</p>
+<ul>
+<li>the patient's membership plan, and</li>
+<li>the claim item (i.e., any medication, visit, test, procedure, or supplies used for patient treatment).</li>
+</ul>
 
 </div>
 </div>
